@@ -1,0 +1,68 @@
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px;
+}
+
+table th {
+  border-bottom: thin solid;
+  border-bottom: 2px solid gray;
+  height: 60px;
+}
+
+table td {
+  border-bottom: thin solid;
+  padding: 10px;
+}
+
+.circle {
+  margin: 10px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.gold {
+  background-color: #fcba03;
+}
+
+.silver {
+  background-color: #949087;
+}
+
+.bronze {
+  background-color: #c4640a;
+}
+
+.total {
+  cursor: pointer;
+}
+
+.selected {
+  border-top: 3px solid gray;
+}
+
+.flag-name {
+  margin-left: 10px;
+}
+
+.flag-cell {
+  width: 130px;
+}
+
+.total-count {
+  font-weight: bold;
+}
+
+.medal-header {
+  font-size: 30px;
+  color: gray;
+}
