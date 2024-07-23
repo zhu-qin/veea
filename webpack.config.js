@@ -7,6 +7,7 @@ module.exports = {
     path: path.resolve(__dirname),
     filename: 'medal-widget.js'
   },
+  devtool: 'source-map',
   module: {
     rules: [
       {

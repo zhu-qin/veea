@@ -26,7 +26,7 @@ class Root extends React.Component {
     fetch(urls.medals)
       .then((res) => res.json())
       .then((data) => {
-
+        
         data.forEach((dataPoint) => {
           let total = dataPoint["gold"] + dataPoint["silver"] + dataPoint["bronze"]
           dataPoint.total = total
